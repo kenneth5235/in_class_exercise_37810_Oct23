@@ -22,6 +22,14 @@ x = 1:10
 y = 2:11
 z = x*y
 
+
+y <- rnorm(10, 0, 1)
+x <- runif(10, 2, 5)
+z <- x + y
+
+
+
+
 y = matrix(1:16, nrow = 4)
 y_svd = svd(y)
 y_svd$d
@@ -29,6 +37,7 @@ plot(y)
 
 y_eign = eigen(y)
 y_eign
+
 ```
 
 ## Including Plots
