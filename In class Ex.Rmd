@@ -21,6 +21,14 @@ When you click the **Knit** button a document will be generated that includes bo
 x = 1:10
 y = 2:11
 z = x*y
+
+y = matrix(1:16, nrow = 4)
+y_svd = svd(y)
+y_svd$d
+plot(y)
+
+y_eign = eigen(y)
+y_eign
 ```
 
 ## Including Plots
