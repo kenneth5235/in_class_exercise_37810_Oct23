@@ -17,6 +17,9 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 1+1
+x <- 10:1
+y <- 2:11
+z <- x*y
 ```
 
 ## Including Plots
@@ -28,3 +31,5 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+This text is added by Kenneth. We will have a conflict later as my partner, Zhen, is also working in the same file at the same time.
