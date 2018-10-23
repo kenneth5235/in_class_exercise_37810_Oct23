@@ -21,6 +21,10 @@ When you click the **Knit** button a document will be generated that includes bo
 x = 1:10
 y = 2:11
 z = x*y
+
+y <- rnorm(10, 0, 1)
+x <- runif(10, 2, 5)
+z <- x + y
 ```
 
 ## Including Plots
